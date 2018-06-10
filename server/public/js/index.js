@@ -10815,5 +10815,17 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 	_f4(1, 2, 3, 4, 5, 6, 7, 8, 9);
 }
 
+{
+	var _obj6 = {
+		a: 1,
+		b: 2,
+		c: 3,
+		d: 4
+	};
+	for (var _key5 in _obj6) {
+		console.log(_key5 + _obj6[_key5]);
+	}
+}
+
 /***/ })
 /******/ ]);

@@ -732,3 +732,15 @@
 	}
 	f(1,2,3,4,5,6,7,8,9);
 }
+
+{
+	let obj = {
+		a: 1,
+		b: 2,
+		c: 3,
+		d: 4
+	}
+	for (let key in obj) {
+	  console.log(key+obj[key]);
+	}
+}
